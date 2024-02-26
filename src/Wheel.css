@@ -1,0 +1,32 @@
+#prize1 {
+  position: absolute;
+  color: black;
+  transform: translate(100%, 360%);
+}
+
+#prize6 {
+  position: absolute;
+  color: black;
+  transform: translate(-90%, 360%);
+}
+#prize5 {
+  position: absolute;
+  color: black;
+  transform: translate(-140%, 30%);
+}
+#prize4 {
+  position: absolute;
+  color: black;
+  transform: translate(-80%, -290%);
+}
+
+#prize3 {
+  position: absolute;
+  color: black;
+  transform: translate(80%, -290%);
+}
+#prize2 {
+  position: absolute;
+  color: black;
+  transform: translate(140%, 20%);
+}
