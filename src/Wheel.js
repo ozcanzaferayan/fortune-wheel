@@ -63,7 +63,10 @@ const Wheel = () => {
         <span id="prize5">Prize 5</span>
         <span id="prize6">Prize 6</span>
       </div>
-      <button onClick={spinWheel}>Spin</button>
+      <div class="button-container" onClick={spinWheel}>
+        <div class="triangle-down"></div>
+        <span class="button-text">spin</span>
+      </div>
     </div>
   );
 };

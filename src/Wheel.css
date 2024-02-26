@@ -1,9 +1,3 @@
-#prize1 {
-  position: absolute;
-  color: black;
-  transform: translate(100%, 360%);
-}
-
 #prize6 {
   position: absolute;
   color: black;
@@ -29,4 +23,35 @@
   position: absolute;
   color: black;
   transform: translate(140%, 20%);
+}
+#prize1 {
+  position: absolute;
+  color: black;
+  transform: translate(100%, 360%);
+}
+
+.triangle-down {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #007bff; /* Change the color to suit your needs */
+}
+.button-container {
+  transform: translate(110%, 0%);
+
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.button-text {
+  margin-top: 30px;
+  z-index: 2;
+  position: absolute;
+  color: white;
+  font-weight: bold;
 }
